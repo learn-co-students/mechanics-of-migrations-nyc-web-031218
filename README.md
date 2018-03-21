@@ -325,6 +325,7 @@ To make this change we're going to need a new migration, which we'll call
 class AddFavoriteFoodToArtists < ActiveRecord::Migration
   def change
     add_column :artists, :favorite_food, :string
+    #table, column, data-type
   end
 end
 ```
