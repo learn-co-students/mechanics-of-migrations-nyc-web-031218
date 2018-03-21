@@ -5,6 +5,7 @@
 
  gem 'activerecord', :require => 'active_record'
  gem 'rake'
+ gem 'rake-contrib'
  gem 'require_all'
  gem 'sqlite3'
  gem 'pry'
